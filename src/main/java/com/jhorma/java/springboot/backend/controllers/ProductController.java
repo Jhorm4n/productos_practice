@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin({"http://localhost:5173","https://6890482f9c083ebeadaf0ab0--spiffy-semolina-fc17c3.netlify.app"})
+@CrossOrigin("https://6890482f9c083ebeadaf0ab0--spiffy-semolina-fc17c3.netlify.app")
 
 public class ProductController {
 
