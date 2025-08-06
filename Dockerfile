@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the application code
 COPY . .
 
-# ✅ Otorgar permisos de ejecución al wrapper de Maven
+# Otorgar permisos de ejecución al wrapper de Maven
 RUN chmod +x ./mvnw
 
 # Build the application (requires Maven or Gradle)
